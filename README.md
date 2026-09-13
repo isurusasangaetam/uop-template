@@ -2,7 +2,10 @@
 
 A highly reusable, modular PHP template built specifically for University of Peradeniya (UoP) departments, units, and student societies. This template is designed for rapid deployment, utilizing **Tailwind CSS v4** for styling and **PHP Data Objects (PDO)** for secure database management.
 
-Created by [Isuru Etampawala](https://www.linkedin.com/in/isuru-sasanga-etampawala).
+## ⚠️ Attribution & Credits
+**Created by [Isuru Etampawala](https://www.linkedin.com/in/isuru-sasanga-etampawala).**
+
+If you are granted access to use, fork, or modify this template for a university department or society project, you **must** retain the original developer attribution in the website's footer (configured via `includes/config.php`). If the footer structure is significantly altered, appropriate credit must still be visibly provided on the site and within your project's documentation.
 
 ---
 
