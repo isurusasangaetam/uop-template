@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Official UoP Maroon & Gold (matching CGU layout) */
+  --color-primary: #7b1113; 
+  --color-secondary: #eab308; 
+}
+
+@layer components {
+  /* Reusable Button System */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 font-bold rounded-md transition-all duration-300 shadow-sm text-sm sm:text-base;
+  }
+  
+  /* Solid Maroon Button */
+  .btn-primary {
+    @apply bg-primary text-white hover:opacity-90 hover:shadow-md;
+  }
+  
+  /* Outline / White Button */
+  .btn-secondary {
+    @apply bg-white/10 text-white border border-white/30 hover:bg-white hover:text-primary backdrop-blur-sm;
+  }
+  
+  /* Text-Only Button with Arrow (Used in Service Cards) */
+  .btn-tertiary {
+    @apply px-0 py-0 shadow-none bg-transparent text-primary hover:text-secondary;
+  }
+}
